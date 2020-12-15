@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    text-shadow: 2px 2px 5px rgba(9, 9, 9, 0.2);
+
+}
+
+.heading {
+    margin: 2vh 0;
+}
+.ham-menu {
+    display: none;
+}
+
+.navbar {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 10vh;
+    align-items: center;
+}
+
+.nav-links {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    list-style: none;
+    margin: auto;
+}
+
+.link {
+    margin: 0px 15px;
+}
+
+.ancor {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.7em;
+    transition: all ease .3s;
+}
+
+.ancor:hover {
+    text-shadow: 2px 3px 8px rgba(9, 9, 9, 0.6);
+    font-size: 1.9em;
+
+}
+
+.navbar .heading {
+    position: relative;
+    margin: auto;
+    left: 0vw;
+    width: 40vw;
+    color: purple;
+    font-size: .9em;
+}
+
+.bg-container {
+    background: url('../background/Page-Bg.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
